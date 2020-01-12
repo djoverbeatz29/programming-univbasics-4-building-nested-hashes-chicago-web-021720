@@ -11,7 +11,7 @@ def monopoly_with_second_tier
   # complexity.
   hash = base_hash
   hash[:railroads][:pieces] = 4
-  return hash
+  hash
 end
 
 def monopoly_with_third_tier
